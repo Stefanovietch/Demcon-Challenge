@@ -18,7 +18,11 @@ for show in sorted(shows,key=lambda x:(x[1], x[2])):
         planning_time.append(show[2])
         planning.append(["stage_"+str(len(planning_time)),show])
 
-for i in planning:
-    print(i)
+with open("planning.txt","w") as f:
+    for stage in planning:
+        for line in stage:
+            f.write(f"{line} ")
+        f.write("\n")
+    f.close()
 
         
