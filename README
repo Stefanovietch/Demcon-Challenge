@@ -1,2 +1,2 @@
-Have a text file with all the shows formated in the same way as the example: "show_1 1 4".
+Have a text file with all the shows formated in the same way as the example: "show_1 1 4" (see inclueded file "shows.txt").
 Text file should be in the same location as the Python file and be named "shows.txt".
